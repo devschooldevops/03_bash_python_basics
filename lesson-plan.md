@@ -16,7 +16,6 @@ At the end of the lesson the student should:
 - write a simple bash script based on previosly learned commands
 - understanding of basic concepts in Python (variables, data types, decision making blocks, I/O, libraries, methods etc.)
 
-
 ## Resources required/used
 Example:
 - Azure virtual machines;
