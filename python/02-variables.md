@@ -19,6 +19,7 @@ In python, we have number types int, float and complex.
 integer = 1
 floating_point = 2.0
 complex_number = complex(1, 2)
+pretty_complex_number = 1 + 2j
 num = int("123", 10)
 
 print(integer)
