@@ -20,6 +20,13 @@ f-strings can also evaluate expressions:
 ```python
 print(f"The result is {1 + 2}") # Prints The result is 3
 ```
+
+You can also get the same result by using the `.format` method:
+```python
+num = 25
+s = "it took {} years to get here"
+print(s.format(num
+```
 In the wild, when reading other people's code you'll see string concatenation, f-strings and other methods of formatting strings. Check out the [cheatsheet](https://www.pythoncheatsheet.org/cheatsheet/string-formatting) for more.
 
 ## String methods
