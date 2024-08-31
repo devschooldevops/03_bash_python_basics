@@ -33,6 +33,14 @@ There's 2 of them: `True` and `False`. Mind the capitalization
 ```python
 is_python_fun = True
 ```
+
+## None
+It's the python version of `null`. It denotes the absence of a value.
+
+```python
+a = None
+```
+
 ## String
 Strings in Python are identified as a contiguous set of characters represented in the quotation marks. 
 Subsets of strings can be taken using the slice operator ([ ] and [:] ) 
@@ -126,6 +134,26 @@ del sample_tuple[0]                          # same, not possible
 
 print(len(sample_tuple))                     # 6 elements
 ```
+
+## Set
+
+Is just like a list, but elements have to be unique, and are instantiated with curly braces `{}`:
+```python
+sample_set = {1, 2, 3}
+print(sample_set) # 1, 2, 3
+sample_set.add(4)
+
+print(sample_set) # 1, 2, 3, 4
+
+sample_set.add(4) # try adding it again
+
+print(sample_set) # 1, 2, 3, 4 <- no effect
+```
+
+You can also generate sets using comprehensions, just like lists, but in `{}`
+```python
+sample_set = {x * 2 for x in range(100) if x % 3 == 0}
+print(sample_set)
 
 ## Dictionary
 Dictionaries hold pairs of key -> value type. Keys are usually numbers or strings (or [other types, with restrictions](https://wiki.python.org/moin/DictionaryKeys)) and values can be literally anything.
