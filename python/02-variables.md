@@ -154,6 +154,7 @@ You can also generate sets using comprehensions, just like lists, but in `{}`
 ```python
 sample_set = {x * 2 for x in range(100) if x % 3 == 0}
 print(sample_set)
+```
 
 ## Dictionary
 Dictionaries hold pairs of key -> value type. Keys are usually numbers or strings (or [other types, with restrictions](https://wiki.python.org/moin/DictionaryKeys)) and values can be literally anything.
@@ -180,6 +181,12 @@ print('a' in my_dict)        # True
 another_dict = {'b': 3}
 my_dict.update(another_dict)
 print('b' in my_dict)        # True
+```
+Dictionaries can also be initialized using dictionary comprehensions:
+```python
+items = ['a', 'b', 'c']
+counts = {item: 0 for item in items}
+print(counts)
 ```
 
 ## Practice
