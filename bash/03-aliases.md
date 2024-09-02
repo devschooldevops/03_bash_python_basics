@@ -32,6 +32,7 @@ $ alias projects='cd ~/Projects'
 ```bash
 # Example of adding a permanent alias
 $ echo "alias ll='ls -alh'" >> ~/.bashrc
+# Run 'source' to apply the .bashrc confi wihtout restarting the shell
 $ source ~/.bashrc
 ```
 
@@ -40,7 +41,9 @@ $ source ~/.bashrc
 To remove an alias, use the `unalias` command:
 
 ```bash
-$ unalias alias_name
+$ unalias ll
+$ ll
+$ ll: command not found
 ```
 
 ## Summary
