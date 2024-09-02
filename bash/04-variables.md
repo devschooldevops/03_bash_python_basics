@@ -24,11 +24,8 @@ $ echo $VAR
 
 ### Example
 ```bash
-# Creating a variable
-$ greeting="Hello, World!"
-
-# Accessing the variable
-$ echo $greeting
+name="Razvan"
+echo "Hello, $name!"
 ```
 
 ## Environment Variables
@@ -72,84 +69,20 @@ $ echo $VAR
 $
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Using Variables in Scripts
 
 Variables can be used to store user input, command output, or any other data needed within a script.
 
 ```bash
+$ nano hello.sh
+
 #!/bin/bash
 name="Alice"
 echo "Hello, $name!"
 ```
 
+
 ## Summary
 
 Variables in Bash are essential for storing and using data within your commands and scripts. Understanding how to create and manipulate variables will greatly enhance your ability to write effective Bash scripts.
-```
-
-PS1="\u@\h[\w] % "
-
-
-```
-#### **1.4 Variables**
-
-##### **1.4.1 Generalities and Usage**
-
-##### **1.4.2 Defining and Modifying Variables**
-A variable is defined by assigning it a value:
-```bash
-USER=student
-```
-Variables are case-sensitive, meaning `VAR` and `Var` are different. When a variable's value consists of multiple words, it should be enclosed in quotes.
-
-##### **1.4.3 Reading Variable Values**
-To read the value stored in a variable, prefix its name with `$`:
-```bash
-echo $USER
-```
-
-##### **1.4.4 Displaying and Deleting Variables**
-Use the `set` command to display all defined variables and their values. To delete a variable, use the `unset` command:
-```bash
-unset OPTION
-```
-
-##### **1.4.5 Examples of Useful Variables**
-- **PS1**: Determines the command prompt appearance.
-- **PATH**: Defines the directories where the shell looks for executables.
-
-##### **1.4.6 Variable Scope**
-Variables are only visible within the shell in which they are defined. To make a variable available to child processes, it must be exported:
-```bash
-export VAR_NAME
 ```
