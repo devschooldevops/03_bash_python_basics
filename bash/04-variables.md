@@ -81,6 +81,4 @@ echo "Hello, $name!"
 
 
 ## Summary
-
-Variables in Bash are essential for storing and using data within your commands and scripts. Understanding how to create and manipulate variables will greatly enhance your ability to write effective Bash scripts.
-```
+Understanding how to create and manipulate variables in Bash is essential for storing and using data within your commands and scripts.
