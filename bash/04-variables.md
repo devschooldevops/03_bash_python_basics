@@ -29,7 +29,6 @@ echo "Hello, $name!"
 ```
 
 ## Environment Variables
-
 Environment variables are special variables that influence the behavior of your shell and system processes.
 
 ### Common Environment Variables
@@ -40,7 +39,6 @@ Environment variables are special variables that influence the behavior of your 
 - **`PS1`**: Determines the command prompt appearance (stands for Prompt Shell 1)
 
 ### Viewing Environment Variables
-
 ```bash
 $ echo "Your home directory is: $HOME"
 $ echo "Your username is: $USER"
@@ -50,7 +48,7 @@ The **`PS1`** variable can be configured (create the prompt at https://ezprompt.
 $ export PS1="\[\e[33;40m\]\A\[\e[m\]|\[\e[31;40m\]\u\[\e[m\]@\[\e[36m\]\s\[\e[m\][\[\e[35m\]\w\[\e[m\]]\\$ "
 ```
 
-##### Displaying and Deleting Variables
+### Displaying and Deleting Variables
 
 Use the `set` command to display all defined variables and their values. 
 ```bash
