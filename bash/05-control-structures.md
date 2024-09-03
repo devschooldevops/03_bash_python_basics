@@ -33,7 +33,7 @@ else
 fi
 ```
 
-#### `case` Instruction**
+#### `case` Instruction
 The `case` statement compares a variable against a list of values and executes corresponding commands.
 ```bash
 case $variable in
