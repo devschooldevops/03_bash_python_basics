@@ -88,7 +88,7 @@ def keyword_only_divide(*, divident, divisor):
     return divident / divisor
 
 print(keyword_only_divide(divident = 5, divisor = 2))
-print(keywork_only_divide(5, 2)) # error
+print(keyword_only_divide(5, 2)) # error
 ```
 This can help avoid confusion when calling the function, since it forces you to acknowledge which argument is which.
 
