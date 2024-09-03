@@ -31,7 +31,7 @@ You should handle these situations with care, since they can be hard to debug.
 ```python
 def divide(a, b):
     quotient = a // b
-    modulus - a % b
+    modulus = a % b
     return (quotient, modulus)
 
 print(divide(5, 2))
