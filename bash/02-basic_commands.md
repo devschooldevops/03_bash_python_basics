@@ -56,14 +56,18 @@ $ rm file2.txt
 - `cat [file]`: Display the content of a file.
 - `nano [file]`: Edit a file using the Nano text editor.
 - `less [file]`: View the content of a file page by page.
+- `grep [word-to-search] [filename]`: The grep command searches the given files for lines containing a match to a given pattern list.
+  - `cat [file] | grep [keyword]`: Search for lines containing a match to [keyword].
 
 Example:
 ```bash
+$ nano file.txt
+
+Hello, World!
+# Ctrl + O to save the file, Ctrl + X to exit and save
+
 $ cat file.txt
 Hello, World!
-
-$ nano file.txt
-# Ctrl + O to save the file, Ctrl + X to exit and save
 
 $ less file.txt
 ```
