@@ -19,7 +19,17 @@ $ ls
 Documents  Downloads  Pictures
 
 $ ls -lah
-Documents  Downloads  Pictures
+total 48K
+drwx------  8 root root 4.0K Sep  3 10:22 .
+drwxr-xr-x 19 root root 4.0K Aug  2 07:17 ..
+-rw-------  1 root root   20 Nov 13  2022 .bash_history
+-rw-r--r--  1 root root 3.2K Aug  2 07:17 .bashrc
+-rw-r--r--  1 root root  161 Dec  5  2019 .profile
+drwx------  2 root root 4.0K Aug  2 07:15 .ssh
+-rw-r--r--  1 root root  109 Aug  2 07:17 .vimrc
+drwxr-xr-x  2 root root 4.0K Sep  3 10:22 Documents
+drwxr-xr-x  2 root root 4.0K Sep  3 10:22 Downloads
+drwxr-xr-x  2 root root 4.0K Sep  3 10:22 Pictures
 
 $ cd Documents
 $ pwd
@@ -53,7 +63,7 @@ $ cat file.txt
 Hello, World!
 
 $ nano file.txt
-# (edit and save the file)
+# Ctrl + O to save the file, Ctrl + X to exit and save
 
 $ less file.txt
 ```
