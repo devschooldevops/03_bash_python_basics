@@ -95,7 +95,7 @@ Note: the actual writing to the file is usually done when f.close() is called. T
 ## Practice
 Write a 05.py with the following behaviour:
 
-You take two file names from arvg (in_file and out_file; create the 2 files in bash and put a greeting in the out_file).  
+You take two file names from arvg (in_file and out_file; create the 2 files in bash and put a greeting in the in_file).  
 You ask for a name from stdin.  
 You read the content of the in_file.  
 You concatenate the name from stdin to the content of in_file and write the resulting string to the out_file.  

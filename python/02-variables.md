@@ -190,7 +190,7 @@ print(counts)
 ```
 
 ## Practice
-In a file called 02.py:
+In a file called 02.py or in a repl:
 
 1. Create a variable and give it a value.  
 Print your variable.  

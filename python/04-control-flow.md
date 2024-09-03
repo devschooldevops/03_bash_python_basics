@@ -116,5 +116,5 @@ If the remainder of dividing by 4 is 3, print "Remainder is three".
 
 The output of your program should be a single printed line.
 
-Use a mix of ternary, if and switch statements.
+Try to use a mix of ternary, if and switch statements.
 Try to use string concatenation to avoid duplicating the "Remainder is" text.
