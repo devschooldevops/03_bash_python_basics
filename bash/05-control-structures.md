@@ -33,6 +33,18 @@ else
 fi
 ```
 
+#### `case` Instruction**
+The `case` statement compares a variable against a list of values and executes corresponding commands.
+```bash
+case $variable in
+  value1)
+    # commands ;;
+  value2)
+    # commands ;;
+  *)
+    # default commands ;;
+esac
+```
 
 ### Loops
 Loops allow you to repeat a block of code multiple times.
@@ -58,3 +70,4 @@ while [ $count -le 5 ]; do
   ((count++))
 done
 ```
+
