@@ -76,4 +76,4 @@ print("Hello\nWorld!")
 Feel free to check out the [cheatsheet](https://www.pythoncheatsheet.org/cheatsheet/manipulating-strings) for more string manipulation.
 
 ## Practice
-Rewrite the "remainder is" bit from 04 using f-strings.
+Rewrite the "remainder is" bit from 04 using `.format`.
