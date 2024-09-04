@@ -244,6 +244,7 @@ while true; do
 done
 ```
 
-### Final Thoughts
+### Homework:
 
-This final script is now a robust, interactive script that takes user input, processes it, and allows for multiple orders until the user decides to exit. The script incorporates variables, user input, conditionals, loops, functions, and input validation—all essential concepts in Bash scripting.
+Enhance the beer odering script so that it will log the orders in a file containing the current date in which the orders were placed
+
