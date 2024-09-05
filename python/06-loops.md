@@ -114,7 +114,7 @@ for attendant in attendants:
 
 Here's a pretty neat way of iterating the lines of a file:
 ```python
-with open("file.txt"):
+with open("file.txt") as file:
     for line in file:
         print("this is the line: " + line)
 ```
